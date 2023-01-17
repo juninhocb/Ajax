@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <title>Document</title>
+    <style>
+        .margemPadrão{margin: 15px;}
+    </style>
+</head>
+<body>
+    <form class="margemPadrão" action="tratar.php" method="post" id="minhaForm">
+        <div> <input type="text" name="text_nome" placeholder="Nome"> </div>
+        <br>
+        <div> <input type="email" name="text_email" placeholder="Email"> </div>
+        <br>
+        <textarea name="text_mensagem" cols="30" rows="10" placeholder="Mensagem"></textarea>
+        <br>
+        <br>
+        <button onClick="SubmeterFormulario('minhaForm')"> Tratar dados </button>
+    </form>
+    
+    <div id="info"></div>
+    
+    
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

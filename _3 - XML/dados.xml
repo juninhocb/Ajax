@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lista> 
+    <cliente> 
+        <nome> Carlos Eduardo </nome>
+        <email> carlos@hotmail.com </email>
+    </cliente>
+    <cliente> 
+        <nome> João Batista </nome>
+        <email> jb12@gmail.com </email>
+    </cliente>
+    <cliente> 
+        <nome> José Antonio </nome>
+        <email> josea.1@hotmail.com </email>
+    </cliente>
+    <cliente> 
+        <nome> Flávio Alfredo </nome>
+        <email> flavio_alfredo@yahoo.com.br </email>
+    </cliente>
+    <cliente> 
+        <nome> Alberto Torres </nome>
+        <email> a.torres123@yahoo.com.br </email>
+    </cliente>
+</lista>
